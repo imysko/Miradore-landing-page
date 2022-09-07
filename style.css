@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto&display=swap');
+@font-face {
+    font-family: source-sans-pro-regular;
+    src: url(resources/fonst/source-sans-pro-regular.ttf);
+}
+.main-background {
+    background-image: url("resources/images/background.png"); 
+	background-size:100%;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.logo {
+    background-image: url("resources/images/logo.png");
+    width: 129px;
+    height: 91px;
+    margin-top: 13px;
+    margin-left: 98px;
+}
+.block-navigation {
+    display: flex;
+    flex-direction: row;
+    margin-top: 67px;
+    margin-right: 119px;
+}
+.text-navigation {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    margin: 0px 16px;
+}
+.block-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.text-title-header {
+    text-align: center;
+    font-family: "source-sans-pro-regular";
+    font-size: 180px;
+    color: white;
+    justify-content: center;
+}
+.text-description-header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    align-self: center;
+}
+.text-button-header {
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    background-color: #C01686;
+    margin-top: 78px;
+    padding: 20px 58px;
+    align-self: center;
+}
+.block-about {
+    margin-top: 136px;
+}
