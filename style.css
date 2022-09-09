@@ -3,12 +3,14 @@
     font-family: source-sans-pro-regular;
     src: url(resources/fonst/source-sans-pro-regular.ttf);
 }
+
 .main-background {
-    background-image: url("resources/images/background.png"); 
+    background-image: url("resources/images/background.png");
 	background-size:100%;
     background-position: right top;
     background-repeat: no-repeat;
 }
+
 .logo {
     background-image: url("resources/images/logo.png");
     width: 129px;
@@ -16,6 +18,7 @@
     margin-top: 13px;
     margin-left: 98px;
 }
+
 .block-navigation {
     display: flex;
     flex-direction: row;
@@ -29,6 +32,7 @@
     color: white;
     margin: 0px 16px;
 }
+
 .block-header {
     display: flex;
     flex-direction: column;
@@ -57,9 +61,83 @@
     color: white;
     background-color: #C01686;
     margin-top: 78px;
+    margin-bottom: 349px;
     padding: 20px 58px;
     align-self: center;
 }
+
 .block-about {
-    margin-top: 136px;
+    margin-top: 152px;
+    margin-bottom: 67px;
+}
+.text-subtitle-second-page {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #A4A4A4;
+}
+.text-title-second-page {
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #15161A;
+    margin-bottom: 13px;
+}
+.text-description-second-page {
+    font-family: "Lora", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #474747;
+    margin: 0px 496px;
+}
+
+.block-achievements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #9F023F;
+    display: inline-block;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #9F023F;
+}
+.title-achievements {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #9F023F;
+}
+.achievements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 36.5px;
+}
+
+.button-learn-more {
+    border: 1px solid #C01686;
+    padding: 20px 61px;
+    margin-top: 92px;
+    margin-bottom: 192px;
+    align-self: center;
+
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #C01686;
 }
