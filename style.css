@@ -178,3 +178,45 @@
     margin-top: 93px;
     margin-bottom: 29px;
 }
+
+.professionals-page {
+    background-color: rgba(229, 229, 229, 0.39);
+    height: 100%;
+    display: flex;
+    padding-bottom: 160px;
+}
+.subtitle-team {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #A4A4A4;
+    margin-top: 75px;
+    margin-bottom: 11px;
+}
+.title-team {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #15161A;
+    margin-bottom: 60px;
+}
+
+.block-person {
+    width: 435px;
+    margin: 0px 18px;
+}
+.person-name {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 20px;
+    color: #A4A4A4;
+    margin-top: 29px;
+    margin-bottom: 13px;
+}
+.person-discription {
+    font-family: 'Lora', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #474747;
+}
