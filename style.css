@@ -71,6 +71,7 @@
     margin-bottom: 67px;
 }
 .text-subtitle-block-description {
+    text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -120,6 +121,7 @@
     font-size: 24px;
     font-weight: 400;
     color: #9F023F;
+    margin-top: 41px;
 }
 .achievements {
     display: flex;
@@ -219,4 +221,20 @@
     font-weight: 400px;
     font-size: 16px;
     color: #474747;
+}
+
+.news-page {
+    height: 100%;
+    display: flex;
+    padding-top: 93px;
+    padding-bottom: 121px;
+    align-items: center;
+}
+.text-news {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    width: 680px;
+    margin-top: 33px;
 }
