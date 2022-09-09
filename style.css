@@ -128,11 +128,9 @@
     margin: 0px 36.5px;
 }
 
-.button-learn-more {
+.button {
     border: 1px solid #C01686;
     padding: 20px 61px;
-    margin-top: 92px;
-    margin-bottom: 192px;
     align-self: center;
 
     text-align: center;
@@ -174,4 +172,9 @@
 }
 .text-card-discription {
     font-size: 18px;
+}
+
+.block-projects {
+    margin-top: 93px;
+    margin-bottom: 29px;
 }
